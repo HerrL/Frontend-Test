@@ -1,0 +1,20 @@
+{
+  "name": "frontend-multi",
+  "version": "3.0",
+  "homepage": "http://funke-digital.de/",
+  "authors": [
+    "Alexis Kremin <alexis.kremin@freenet.de>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery-legacy": "jquery#1.11",
+    "jquery-modern": "jquery#2.1",
+    "modernizr-min": "~2.8.3",
+    "normalize-scss": "~3.0.1",
+    "bourbon": "~4.0.2",
+    "neat": "~1.6.0"
+  }
+}

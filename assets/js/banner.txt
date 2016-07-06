@@ -1,0 +1,14 @@
+/*!
+ *
+ * @preserve Funke Digital GmbH - JavaScript library
+ *
+ * Copyright 2016, Funke Digital GmbH
+ * http://www.funkedigital.de/
+ *
+ */
+
+ jQuery = $.noConflict();
+
+(function( $, window, document, undefined ) {
+	"use strict";
+
