@@ -24,7 +24,7 @@ module.exports = function( grunt ) {
 	require( "load-grunt-config" )( grunt );
 
 	// default task
-	grunt.registerTask( "default", [ "clean", "bowercopy", "copy", "jscs:buildTmp", "jshint:buildTmp", "concat", "uglify", "sass:expanded", "sass:minified" ] );
+	grunt.registerTask( "default", [ "clean", "bowercopy", "copy", "jscs:buildTmp", "jshint:buildTmp", "concat", "uglify", "sass:expanded", "sass:minified", "copy:targetToInplaceWebapp" ] );
 
 	// custom tasks
 	grunt.registerTask( "bowerinstall", [ "bowercopy" ] );
