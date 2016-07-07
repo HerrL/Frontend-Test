@@ -9,6 +9,7 @@ module.exports = function( grunt ) {
 		vendor: [ "src/main/webapp/resources/js/vendor" ],
 		target: [ "<%= grunt.configGlobal.targetPath %>" ],
 		assets: [ "<%= grunt.configGlobal.assetPath %>" ],
-		tmp: [ "<%= grunt.configGlobal.tmpPath %>" ]
+		tmp: [ "<%= grunt.configGlobal.tmpPath %>" ],
+		inplaceWebapp: [ "<%= grunt.configGlobal.inplaceWebappPath %>" ]
 	};
 };

@@ -38,7 +38,7 @@ module.exports = function( grunt ) {
 			files: [
 				"!<%= grunt.configGlobal.sourcePath %>resources/scss/vendor/**/*.scss"
 			],
-			tasks: [ "newer:copy", "sass:devExpanded", "sass:devMinified", "newer:copy:targetToInplaceWebapp" ]
+			tasks: [ "copy", "sass:devExpanded", "sass:devMinified", "copy:targetToInplaceWebapp" ]
 		}
 	};
 
