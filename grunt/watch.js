@@ -13,6 +13,14 @@ function watchConfig( grunt, config ) {
 module.exports = function( grunt ) {
 
 	var config = {
+		files: [
+			"<%= grunt.configGlobal.sourcePath %>",
+			"!.git",
+			"!.idea",
+			"!bower_components",
+			"!build",
+			"!node_modules"
+		],
 		gruntfile: {
 			files: [ "Gruntfile.js", "grunt/**/*.js" ],
 			tasks: [ "newer:jscs:gruntfile", "newer:jshint:gruntfile" ]
@@ -21,7 +29,7 @@ module.exports = function( grunt ) {
 			options: {
 				livereload: true
 			},
-			files: [ "src/main/webapp/**/*.html", "src/main/webapp/**/*.json" ],
+			files: [ "<%= grunt.configGlobal.sourcePath %>/**/*.html", "<%= grunt.configGlobal.sourcePath %>/**/*.json" ],
 			tasks: [ "copy:html" ]
 		},
 		js: {
@@ -44,6 +52,7 @@ module.exports = function( grunt ) {
 
 	watchConfig( grunt, config );
 
+	console.dir(config);
 
 	return config;
 };
