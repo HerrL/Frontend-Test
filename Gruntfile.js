@@ -29,6 +29,6 @@ module.exports = function( grunt ) {
 	// custom tasks
 	grunt.registerTask( "bowerinstall", [ "bowercopy" ] );
 
-	grunt.registerTask( "server", [ "express", "open", "watch" ]);
+	grunt.registerTask( "server", [ "express", "watch" ]);
 
 };
