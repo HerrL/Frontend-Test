@@ -1,12 +1,12 @@
 {
-  "name": "Funke Digital GmbH",
+  "name": "funke digital gmbh bewerbungs test",
   "version": "0.1.0",
   "description": "Bewerbungs-Test",
   "main": "Gruntfile.js",
   "author": "Alexis Kremin <a.kremin@funkedigital.de>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/unitb-consulting/hamburger-abendblatt.git"
+    "url": "https://github.com/HerrL/Frontend-Test.git"
   },
   "engines": {
     "node": ">= 0.10.0"
