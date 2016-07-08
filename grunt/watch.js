@@ -52,7 +52,5 @@ module.exports = function( grunt ) {
 
 	watchConfig( grunt, config );
 
-	console.dir(config);
-
 	return config;
 };
