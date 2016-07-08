@@ -120,11 +120,6 @@ module.exports = function( grunt ) {
 			],
 			requireDotNotation: true,
 			disallowYodaConditions: true,
-			validateJSDoc: {
-				checkParamNames: true,
-				checkRedundantParams: true,
-				requireParamTypes: true
-			},
 			requireSpaceAfterLineComment: true
 		},
 		gruntfile: {
